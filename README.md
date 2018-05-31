@@ -3,7 +3,7 @@ Project created for Stack Overflow question How to resolve Google Service Accoun
 
 I am attempting to create a Google Team Drive using my Service Account but am receiving a insufficientFilePermissions error. Does anyone know how to create a Google Team Drive using a Service Account or can identify what I am doing wrong here?
 
-I've provided the error, Java code for SOTeamDriveCreate, and a pom.xml. One should copy their Service Account credential json file to ServiceAccount.json in the same directory as the pom file. Then execute:
+I've provided the error, Java code for SOTeamDriveCreate, and a pom.xml. One should copy their Service Account credential json file to client_secrets.json in the same directory as the pom file. Then execute:
 
 > mvn clean compile ; mvn exec:java -Dexec.mainClass=SOTeamDriveCreate
 

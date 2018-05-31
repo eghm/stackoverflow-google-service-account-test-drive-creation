@@ -23,11 +23,11 @@
         <maven-war-plugin.version>2.4</maven-war-plugin.version>
         <java.version>1.8</java.version>
 
-        <google.http-client.version>1.22.0</google.http-client.version>
-        <google.oauth-client.version>1.22.0</google.oauth-client.version>
-        <google.api-client.version>1.22.0</google.api-client.version>
-        <google-api-services.version>v3-rev81-1.22.0</google-api-services.version>
-        <google-api-services-storage.version>v1-rev33-1.20.0</google-api-services-storage.version>
+        <google.http-client.version>1.23.0</google.http-client.version>
+        <google.oauth-client.version>1.23.0</google.oauth-client.version>
+        <google.api-client.version>1.23.0</google.api-client.version>
+        <google-api-services.version>v3-rev119-1.23.0</google-api-services.version>
+        <google-api-services-storage.version>v1-rev132-1.23.0</google-api-services-storage.version>
 
     </properties>
 

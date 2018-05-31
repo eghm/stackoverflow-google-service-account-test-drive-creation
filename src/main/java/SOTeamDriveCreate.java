@@ -99,7 +99,7 @@
         }
     
         public static void main(String[] args) throws Exception {
-            SOTeamDriveCreate createTeamDrive = new SOTeamDriveCreate("ServiceAccount.json");
+            SOTeamDriveCreate createTeamDrive = new SOTeamDriveCreate("client_secrets.json");
             createTeamDrive.createTeamDrive();
         }
     
